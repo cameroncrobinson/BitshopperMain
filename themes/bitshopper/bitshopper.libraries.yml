@@ -1,0 +1,7 @@
+css:
+  theme:
+    css/animate.css: {}
+    css/bootstrap-select.min.csss: {}
+    font-awesome.min.css: {}
+    fontello.css: {}
+    icheck.min_all.css: {}
