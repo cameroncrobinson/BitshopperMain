@@ -1,5 +1,5 @@
 bishopper.mobile:
-  label:mobile
+  label: mobile
   mediaQuery: ''
   weight: 0
   multipliers:
