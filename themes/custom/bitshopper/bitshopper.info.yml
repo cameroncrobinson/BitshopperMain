@@ -3,15 +3,15 @@ type: theme
 description: 'Bitshopper theme'
 core: 8.x
 screenshot: screenshot.png
-# 
-# regions:
-#   header: Header
-#   content: Content
-#   sidbar_first: Sidebar First
-#   footer: Footer
-#   page_top: Page top
-#   page_bottom: Page bottom
+
+regions:
+  header: Header
+  content: Content
+  sidbar_first: Sidebar First
+  footer: Footer
+  page_top: Page top
+  page_bottom: Page bottom
 
 
-  # libraries:
-  #   - bitshopper/global-css
+libraries:
+    - bitshopper/global-css
