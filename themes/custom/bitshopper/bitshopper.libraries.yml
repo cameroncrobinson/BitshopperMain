@@ -1,54 +1,54 @@
-# bitshopper.libraries.yml
-# global-css:
-#   version: Version
-#   css:
-#     theme:
-#       css/animate.css: {}
-#       css/bootstrap-select.min.csss: {}
-#       css/font-awesome.min.css: {}
-#       css/fontello.css: {}
-#       css/icheck.min_all.css: {}
-#       css/ion.rangeSlider.css: {}
-#       css/ion.rangeSlider.skinFlat.css: {}
-#       css/ion.rangeSlider.skinNice.css: {}
-#       css/jquery.slitslider.css: {}
-#       css/lightslider.min.css: {}
-#       css/normalize.css: {}
-#       css/owl.carousel.css: {}
-#       css/owl.theme.css: {}
-#       css/owl.transitions.css: {}
-#       css/price-range.css: {}
-#       css/responsive.css: {}
-#       css/slider.css: {}
-#       css/style-original.css: {}
-#       css/style.css: {}
-#       css/styleNoJS.css: {}
-#       css/wizard.css: {}
-#       '//fonts.googleapis.com/css?family=Pacifico': { type: external }
-#
-#       global-js:
-#         js:
-#           js/bootstrap-hover-dropdown.js: {}
-#           js/bootstrap-select.min.js: {}
-#           js/bootstrap-slider: {}
-#           js/bootstrap-wizard.min.js: {}
-#           js/bootstrap.min.js: {}
-#           js/easypiechart.min.js: {}
-#           js/gmaps.js: {}
-#           js/icheck.min.js: {}
-#           js/jquery-1.10.2.min.js: {}
-#           js/jquery.ba-cond.min.js: {}
-#           js/jquery.bootstrap.wizard.js: {}
-#           js/jquery.easypiechart.min.js: {}
-#           js/jquery.slitslider.js: {}
-#           js/jquery.validate.min.js: {}
-#           js/lightslider.min.js: {}
-#           js/main.js: {}
-#           js/modernizr-2.6.2.min.js: {}
-#           js/modernizr.custom.79639.js: {}
-#           js/owl.carousel.min.js: {}
-#           js/plugins.js: {}
-#           js/price-range.js: {}
-#           js/wizard.js: {}
-#           js/wow.js: {}
-#           js/wow.min.js: {}
+#bitshopper.libraries.yml
+global-css:
+  version: Version
+  css:
+    theme:
+      css/animate.css: {}
+      css/bootstrap-select.min.csss: {}
+      css/font-awesome.min.css: {}
+      css/fontello.css: {}
+      css/icheck.min_all.css: {}
+      css/ion.rangeSlider.css: {}
+      css/ion.rangeSlider.skinFlat.css: {}
+      css/ion.rangeSlider.skinNice.css: {}
+      css/jquery.slitslider.css: {}
+      css/lightslider.min.css: {}
+      css/normalize.css: {}
+      css/owl.carousel.css: {}
+      css/owl.theme.css: {}
+      css/owl.transitions.css: {}
+      css/price-range.css: {}
+      css/responsive.css: {}
+      css/slider.css: {}
+      css/style-original.css: {}
+      css/style.css: {}
+      css/styleNoJS.css: {}
+      css/wizard.css: {}
+      '//fonts.googleapis.com/css?family=Pacifico': { type: external }
+
+      global-js:
+        js:
+          js/bootstrap-hover-dropdown.js: {}
+          js/bootstrap-select.min.js: {}
+          js/bootstrap-slider: {}
+          js/bootstrap-wizard.min.js: {}
+          js/bootstrap.min.js: {}
+          js/easypiechart.min.js: {}
+          js/gmaps.js: {}
+          js/icheck.min.js: {}
+          js/jquery-1.10.2.min.js: {}
+          js/jquery.ba-cond.min.js: {}
+          js/jquery.bootstrap.wizard.js: {}
+          js/jquery.easypiechart.min.js: {}
+          js/jquery.slitslider.js: {}
+          js/jquery.validate.min.js: {}
+          js/lightslider.min.js: {}
+          js/main.js: {}
+          js/modernizr-2.6.2.min.js: {}
+          js/modernizr.custom.79639.js: {}
+          js/owl.carousel.min.js: {}
+          js/plugins.js: {}
+          js/price-range.js: {}
+          js/wizard.js: {}
+          js/wow.js: {}
+          js/wow.min.js: {}
