@@ -1,0 +1,22 @@
+uuid: ae09741b-ed79-49b5-85b8-68844c204bc2
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - bitshopper
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: bitshopper_messages
+theme: bitshopper
+region: highlighted
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

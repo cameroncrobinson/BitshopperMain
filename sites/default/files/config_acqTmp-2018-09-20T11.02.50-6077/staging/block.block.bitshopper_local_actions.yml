@@ -1,0 +1,20 @@
+uuid: 23e266f8-f4d6-4b15-ad6f-e87360b16fa2
+langcode: en
+status: true
+dependencies:
+  theme:
+    - bitshopper
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: bitshopper_local_actions
+theme: bitshopper
+region: content
+weight: -20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }
