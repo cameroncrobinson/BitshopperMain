@@ -1,4 +1,4 @@
-uuid: 9b812ee9-01a0-473d-be80-32430427bb2f
+uuid: 1ad6d757-fac6-476e-a202-7e92bb8e4cb1
 langcode: en
 status: true
 dependencies:
@@ -10,8 +10,8 @@ _core:
   default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
 id: bitshopper_breadcrumbs
 theme: bitshopper
-region: breadcrumb
-weight: 0
+region: header
+weight: -4
 provider: null
 plugin: system_breadcrumb_block
 settings:

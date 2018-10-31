@@ -1,4 +1,4 @@
-uuid: 3f5deeae-a9d2-44de-bf20-8974284cf580
+uuid: 6217b57d-37a2-483d-b9ec-4d16aacc3b61
 langcode: en
 status: true
 dependencies:
@@ -12,8 +12,8 @@ _core:
   default_config_hash: DweBpscQZdG0-fHkSpUzdYucrNH45G_KF7Z82V-oyQM
 id: bitshopper_account_menu
 theme: bitshopper
-region: secondary_menu
-weight: 0
+region: header
+weight: -1
 provider: null
 plugin: 'system_menu_block:account'
 settings:
