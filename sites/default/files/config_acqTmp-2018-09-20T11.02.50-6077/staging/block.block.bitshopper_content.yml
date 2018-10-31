@@ -1,0 +1,22 @@
+uuid: e5b95b46-d595-49e1-9663-212f0f10fddf
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - bitshopper
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: bitshopper_content
+theme: bitshopper
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

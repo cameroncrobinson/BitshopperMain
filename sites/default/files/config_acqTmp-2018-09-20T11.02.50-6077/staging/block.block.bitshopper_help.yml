@@ -1,0 +1,22 @@
+uuid: 360b7fa9-d210-42c1-81aa-5458a27afacf
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - bitshopper
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: bitshopper_help
+theme: bitshopper
+region: content
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }
