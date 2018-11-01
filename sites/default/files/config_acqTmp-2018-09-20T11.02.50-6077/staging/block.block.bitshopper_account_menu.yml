@@ -1,6 +1,6 @@
 uuid: 6217b57d-37a2-483d-b9ec-4d16aacc3b61
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - system.menu.account
@@ -13,7 +13,7 @@ _core:
 id: bitshopper_account_menu
 theme: bitshopper
 region: header
-weight: -1
+weight: -5
 provider: null
 plugin: 'system_menu_block:account'
 settings:

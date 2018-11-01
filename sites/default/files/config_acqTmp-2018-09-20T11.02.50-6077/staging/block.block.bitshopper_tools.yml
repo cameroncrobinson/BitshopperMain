@@ -1,6 +1,6 @@
 uuid: 8e580c51-a343-427b-a090-0e21068946e8
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - system.menu.tools
@@ -13,7 +13,7 @@ _core:
 id: bitshopper_tools
 theme: bitshopper
 region: header
-weight: -2
+weight: -6
 provider: null
 plugin: 'system_menu_block:tools'
 settings:
