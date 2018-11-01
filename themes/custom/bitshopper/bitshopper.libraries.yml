@@ -24,6 +24,7 @@ global-css:
       css/style.css: {}
       css/styleNoJS.css: {}
       css/wizard.css: {}
+      css/navigation.css: {}
       '//fonts.googleapis.com/css?family=Pacifico': { type: external }
 
       global-js:
