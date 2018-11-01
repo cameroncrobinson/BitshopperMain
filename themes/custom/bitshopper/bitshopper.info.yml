@@ -6,6 +6,7 @@ screenshot: screenshot.png
 
 regions:
   header: Header
+  bitshoppermenu: Navigation
   content: Content
   sidbar_first: Sidebar First
   footer: Footer
