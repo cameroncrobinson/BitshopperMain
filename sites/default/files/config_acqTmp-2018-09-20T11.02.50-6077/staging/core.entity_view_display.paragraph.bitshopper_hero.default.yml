@@ -1,0 +1,24 @@
+uuid: 59116307-dedb-4721-8287-6781c60f2d88
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.bitshopper_hero.field_hero_image
+    - paragraphs.paragraphs_type.bitshopper_hero
+  module:
+    - image
+id: paragraph.bitshopper_hero.default
+targetEntityType: paragraph
+bundle: bitshopper_hero
+mode: default
+content:
+  field_hero_image:
+    weight: 0
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden: {  }

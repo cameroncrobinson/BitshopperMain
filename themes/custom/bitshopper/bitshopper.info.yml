@@ -3,6 +3,7 @@ type: theme
 description: 'Bitshopper theme'
 core: 8.x
 screenshot: screenshot.png
+base theme: bootstrap
 
 regions:
   header: Header

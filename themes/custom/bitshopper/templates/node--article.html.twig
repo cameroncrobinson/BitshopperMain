@@ -93,7 +93,12 @@
   {% endif %}
 
   <div{{ content_attributes }}>
-    {{ content }}
+    {# {{ content }} #}
+    <div class="article">
+      {{ content.field_image }}
+      {{ content.body }}
+
+    </div>
   </div>
 
 </article>

@@ -1,0 +1,27 @@
+uuid: 2f48807b-a924-4aaa-9b26-d982ffb2b10e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.bitshopper_hero.field_hero_image
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.bitshopper_hero
+  module:
+    - image
+id: paragraph.bitshopper_hero.default
+targetEntityType: paragraph
+bundle: bitshopper_hero
+mode: default
+content:
+  field_hero_image:
+    weight: 0
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

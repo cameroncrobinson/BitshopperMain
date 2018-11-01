@@ -1,0 +1,9 @@
+uuid: 8fe6d644-a1c3-4f0c-94fd-69a0139152b6
+langcode: en
+status: true
+dependencies: {  }
+id: bitshopper_hero
+label: 'Bitshopper Hero'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }
