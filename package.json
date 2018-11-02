@@ -1,0 +1,29 @@
+{
+  "name": "bitshoppermain",
+  "version": "1.0.0",
+  "description": "package settings",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp-sass": "^4.0.2"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass-partials-imported": "^1.0.6"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cameroncrobinson/BitshopperMain.git"
+  },
+  "keywords": [
+    "bitshopper"
+  ],
+  "author": "Cameron Robinson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cameroncrobinson/BitshopperMain/issues"
+  },
+  "homepage": "https://github.com/cameroncrobinson/BitshopperMain#readme"
+}
