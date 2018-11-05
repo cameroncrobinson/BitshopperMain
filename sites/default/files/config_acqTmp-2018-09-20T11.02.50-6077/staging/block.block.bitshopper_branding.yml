@@ -1,4 +1,4 @@
-uuid: 18a8881d-a4f8-4a37-ae1b-63052d1c55fb
+uuid: 4e5d139e-aefe-4e2b-96bb-151155bfc746
 langcode: en
 status: true
 dependencies:
@@ -7,11 +7,11 @@ dependencies:
   theme:
     - bitshopper
 _core:
-  default_config_hash: NDwadleLD3YVSbDUaakxyYZyINYtkFtOVGShfq4kWy8
+  default_config_hash: Cy3vkpYrD1O5JG-BeEnokF0bByHYDEa8CBfWivB4_SQ
 id: bitshopper_branding
 theme: bitshopper
 region: header
-weight: -7
+weight: -6
 provider: null
 plugin: system_branding_block
 settings:
@@ -21,5 +21,5 @@ settings:
   label_display: '0'
   use_site_logo: true
   use_site_name: true
-  use_site_slogan: true
+  use_site_slogan: false
 visibility: {  }

@@ -1,0 +1,31 @@
+uuid: 83df2943-4fd7-481a-8d27-0fd2c2e5d2dd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_bitshopper_hero
+    - node.type.blog
+    - paragraphs.paragraphs_type.bitshopper_hero
+  module:
+    - entity_reference_revisions
+id: node.blog.field_bitshopper_hero
+field_name: field_bitshopper_hero
+entity_type: node
+bundle: blog
+label: 'Bitshopper Hero'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      bitshopper_hero: bitshopper_hero
+    target_bundles_drag_drop:
+      bitshopper_hero:
+        enabled: true
+        weight: 2
+field_type: entity_reference_revisions

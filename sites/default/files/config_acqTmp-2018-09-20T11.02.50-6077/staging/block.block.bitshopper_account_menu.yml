@@ -1,6 +1,6 @@
-uuid: 6217b57d-37a2-483d-b9ec-4d16aacc3b61
+uuid: 38d9ebea-f238-488d-a053-27e9a386a5dd
 langcode: en
-status: false
+status: true
 dependencies:
   config:
     - system.menu.account
@@ -9,11 +9,11 @@ dependencies:
   theme:
     - bitshopper
 _core:
-  default_config_hash: DweBpscQZdG0-fHkSpUzdYucrNH45G_KF7Z82V-oyQM
+  default_config_hash: R2K_qX0ZUMbUL6ie_-S9tZVjvqmlWKlscikgeRv9vhw
 id: bitshopper_account_menu
 theme: bitshopper
 region: header
-weight: -5
+weight: 0
 provider: null
 plugin: 'system_menu_block:account'
 settings:
@@ -22,5 +22,5 @@ settings:
   provider: system
   label_display: '0'
   level: 1
-  depth: 1
+  depth: 2
 visibility: {  }

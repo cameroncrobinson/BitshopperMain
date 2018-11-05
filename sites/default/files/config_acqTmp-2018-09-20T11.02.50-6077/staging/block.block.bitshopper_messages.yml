@@ -1,17 +1,17 @@
-uuid: 57ba0ee1-875d-4985-8f90-8867fea41595
+uuid: 1d5b7f5d-05d3-4c5d-a60a-4429d16c088a
 langcode: en
-status: false
+status: true
 dependencies:
   module:
     - system
   theme:
     - bitshopper
 _core:
-  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+  default_config_hash: 9RnnTUBcn0WRWXfrGOnId2H0Q31uQUeu_F5TnDxl2yg
 id: bitshopper_messages
 theme: bitshopper
 region: footer
-weight: -5
+weight: -4
 provider: null
 plugin: system_messages_block
 settings:

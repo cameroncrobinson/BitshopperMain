@@ -1,17 +1,17 @@
-uuid: dd55c951-ed38-4f81-a578-8015516b5749
+uuid: 69f838a9-126b-4d43-8d3d-9bee832f9af0
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - help
   theme:
     - bitshopper
 _core:
-  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+  default_config_hash: MhtNdV__HKRTab0ZPjkPNfYL4Ng4UPBucDLoC7Rg5Eo
 id: bitshopper_help
 theme: bitshopper
-region: content
-weight: -30
+region: footer
+weight: -3
 provider: null
 plugin: help_block
 settings:

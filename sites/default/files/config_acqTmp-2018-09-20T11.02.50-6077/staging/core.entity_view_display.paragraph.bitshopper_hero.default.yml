@@ -1,4 +1,4 @@
-uuid: 59116307-dedb-4721-8287-6781c60f2d88
+uuid: 3be38e30-5fc3-44f5-ba5f-bb2809cf5807
 langcode: en
 status: true
 dependencies:
@@ -14,7 +14,7 @@ mode: default
 content:
   field_hero_image:
     weight: 0
-    label: above
+    label: visually_hidden
     settings:
       image_style: ''
       image_link: ''

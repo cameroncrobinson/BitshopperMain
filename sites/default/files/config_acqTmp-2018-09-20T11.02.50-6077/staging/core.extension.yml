@@ -17,7 +17,6 @@ module:
   datetime: 0
   dblog: 0
   devel: 0
-  devel_generate: 0
   dynamic_page_cache: 0
   editor: 0
   entity_reference_revisions: 0
@@ -30,8 +29,9 @@ module:
   help: 0
   history: 0
   image: 0
-  kint: 0
   link: 0
+  media: 0
+  media_library: 0
   menu_ui: 0
   node: 0
   options: 0
@@ -58,9 +58,9 @@ theme:
   classy: 0
   bartik: 0
   seven: 0
-  bitshopper: 0
-  adminimal_theme: 0
   bootstrap: 0
+  adminimal_theme: 0
+  bitshopper: 0
 profile: standard
 _core:
   default_config_hash: R4IF-ClDHXxblLcG0L7MgsLvfBIMAvi_skumNFQwkDc

@@ -1,15 +1,15 @@
-uuid: dce0ea7f-9594-4d47-b6c9-e26cbda19055
+uuid: c37870c8-5ee7-4971-b641-72e27ead5f09
 langcode: en
 status: true
 dependencies:
   theme:
     - bitshopper
 _core:
-  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+  default_config_hash: qHdtze2DZ2mFfaJadxjZz6epm92_SN9SAFY4yJGl8Fo
 id: bitshopper_local_tasks
 theme: bitshopper
-region: content
-weight: -40
+region: footer
+weight: -1
 provider: null
 plugin: local_tasks_block
 settings:

@@ -1,15 +1,15 @@
-uuid: 888eed4e-9b11-4310-a3cd-92758ac26aef
+uuid: 48f74d16-8ad1-4dd3-a8cb-185fe367a706
 langcode: en
-status: true
+status: false
 dependencies:
   theme:
     - bitshopper
 _core:
-  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+  default_config_hash: ffxthelqQF8xcr4GTG4HlaNNsluiHftN0pujmQpW0bQ
 id: bitshopper_local_actions
 theme: bitshopper
-region: content
-weight: -20
+region: footer
+weight: 0
 provider: null
 plugin: local_actions_block
 settings:

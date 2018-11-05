@@ -1,17 +1,17 @@
-uuid: a1f0206c-37c7-4e17-83b8-48d898433d61
+uuid: 32ced4cc-38d1-4ec0-ba11-8a43a71805d7
 langcode: en
-status: false
+status: true
 dependencies:
   module:
     - search
   theme:
     - bitshopper
 _core:
-  default_config_hash: za-39d5WDUg6XvbyqSnuVYEeq6QM4qKJxW8MnoAha5A
+  default_config_hash: F3d5hyAFunLh4PhGviJF019fHn1Z3_zy5gzsQ0tX1K0
 id: bitshopper_search
 theme: bitshopper
 region: header
-weight: -4
+weight: -3
 provider: null
 plugin: search_form_block
 settings:

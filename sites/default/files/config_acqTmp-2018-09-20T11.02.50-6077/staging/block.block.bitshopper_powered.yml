@@ -1,4 +1,4 @@
-uuid: b5562622-9e17-4675-8f04-d05934d89e0f
+uuid: 28ee563a-afb4-4727-8387-c96b484061a3
 langcode: en
 status: false
 dependencies:
@@ -7,7 +7,7 @@ dependencies:
   theme:
     - bitshopper
 _core:
-  default_config_hash: jQQUUWN2Uxr5qZtc9zcJKBCxpKY8orN1u2HPqYYRQDI
+  default_config_hash: iggZSiUKz4mYP1YPJ8SsUfFu79HIgOTt6IDy3Up59aM
 id: bitshopper_powered
 theme: bitshopper
 region: footer

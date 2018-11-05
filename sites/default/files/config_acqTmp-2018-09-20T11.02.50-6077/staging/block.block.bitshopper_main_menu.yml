@@ -1,4 +1,4 @@
-uuid: e65af821-3493-436c-af10-7f457c3eb5a6
+uuid: 446a0695-9a2f-401e-bf5b-190c698bdede
 langcode: en
 status: true
 dependencies:
@@ -9,7 +9,7 @@ dependencies:
   theme:
     - bitshopper
 _core:
-  default_config_hash: rx9IrdDv7Ldc4kpalZAxdhIPZfYIeOMh1N-qKoQZwHo
+  default_config_hash: GT_zYl7I9VAILH8OxMRe-VDvFadCDHxRcnmBc5xEmf0
 id: bitshopper_main_menu
 theme: bitshopper
 region: bitshoppermenu
@@ -22,5 +22,5 @@ settings:
   provider: system
   label_display: '0'
   level: 1
-  depth: 1
+  depth: 2
 visibility: {  }
