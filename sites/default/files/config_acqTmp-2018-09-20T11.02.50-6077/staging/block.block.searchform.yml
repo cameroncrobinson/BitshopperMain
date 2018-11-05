@@ -1,0 +1,28 @@
+uuid: 73fbd1cb-768d-46ef-8039-1a43750bdc6c
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - search
+  theme:
+    - bitshopper
+id: searchform
+theme: bitshopper
+region: content
+weight: 0
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form'
+  provider: search
+  label_display: visible
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      bitshopper_homepage: bitshopper_homepage
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

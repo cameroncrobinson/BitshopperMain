@@ -1,0 +1,59 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.bitshopper_social_media.field_logos
+    - field.field.paragraph.bitshopper_social_media.field_social_media_link
+    - paragraphs.paragraphs_type.bitshopper_social_media
+  module:
+    - field_group
+    - fontawesome
+    - link
+third_party_settings:
+  field_group:
+    group_social_media_group:
+      children: {  }
+      parent_name: ''
+      weight: 20
+      format_type: fieldset
+      format_settings:
+        id: BitshopperSocialID
+        classes: ''
+        description: ''
+        required_fields: true
+      label: 'Social Media Group'
+    group_bitshopper_social_media:
+      children: {  }
+      parent_name: ''
+      weight: 20
+      format_type: tab
+      format_settings:
+        id: ''
+        classes: ''
+        formatter: closed
+        description: ''
+        required_fields: true
+      label: 'Bitshopper Social Media'
+id: paragraph.bitshopper_social_media.default
+targetEntityType: paragraph
+bundle: bitshopper_social_media
+mode: default
+content:
+  field_logos:
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    type: fontawesome_icon_widget
+    region: content
+  field_social_media_link:
+    weight: 1
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

@@ -1,0 +1,36 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_bitshopper_site_informatio
+    - node.type.site_information
+    - paragraphs.paragraphs_type.bitshopper_site_information_para
+  module:
+    - entity_reference_revisions
+id: node.site_information.field_bitshopper_site_informatio
+field_name: field_bitshopper_site_informatio
+entity_type: node
+bundle: site_information
+label: 'Bitshopper Site Information'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      bitshopper_site_information_para: bitshopper_site_information_para
+    target_bundles_drag_drop:
+      bitshopper_hero:
+        weight: 4
+        enabled: false
+      bitshopper_site_information_para:
+        enabled: true
+        weight: 5
+      bitshopper_social_media:
+        weight: 6
+        enabled: false
+field_type: entity_reference_revisions

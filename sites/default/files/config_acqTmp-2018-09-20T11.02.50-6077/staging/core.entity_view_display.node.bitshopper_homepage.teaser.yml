@@ -1,0 +1,30 @@
+uuid: 32cd7537-3b71-495c-b692-648e71cb03b6
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.bitshopper_homepage.body
+    - node.type.bitshopper_homepage
+  module:
+    - text
+    - user
+id: node.bitshopper_homepage.teaser
+targetEntityType: node
+bundle: bitshopper_homepage
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

@@ -1,0 +1,23 @@
+uuid: 149a9126-4572-460e-98dc-efea03ec8b58
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_social_media_link
+    - paragraphs.paragraphs_type.bitshopper_social_media
+  module:
+    - link
+id: paragraph.bitshopper_social_media.field_social_media_link
+field_name: field_social_media_link
+entity_type: paragraph
+bundle: bitshopper_social_media
+label: 'Social Media Link'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

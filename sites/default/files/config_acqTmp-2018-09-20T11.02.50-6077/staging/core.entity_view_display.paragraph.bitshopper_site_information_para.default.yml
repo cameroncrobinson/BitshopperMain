@@ -1,0 +1,24 @@
+uuid: 38599d4d-6754-48d1-99bc-ffd109386724
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.bitshopper_site_information_para.field_bitshopper_social_media
+    - paragraphs.paragraphs_type.bitshopper_site_information_para
+  module:
+    - entity_reference_revisions
+id: paragraph.bitshopper_site_information_para.default
+targetEntityType: paragraph
+bundle: bitshopper_site_information_para
+mode: default
+content:
+  field_bitshopper_social_media:
+    type: entity_reference_revisions_entity_view
+    weight: 0
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+hidden: {  }

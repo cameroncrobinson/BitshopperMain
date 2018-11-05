@@ -1,0 +1,16 @@
+name: 'Bitshopper Homepage'
+description: 'Homepage for Bitshopper theme'
+type: module
+core: 8.x
+dependencies:
+  - comment
+  - entity_reference_revisions
+  - field
+  - media
+  - media_library
+  - menu_ui
+  - node
+  - paragraphs
+  - path
+  - text
+  - user

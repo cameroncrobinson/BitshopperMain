@@ -1,0 +1,39 @@
+uuid: f66a9f73-3355-4cc9-953a-b0d93ded4b4f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.site_information.body
+    - field.field.node.site_information.field_bitshopper_site_informatio
+    - node.type.site_information
+  module:
+    - entity_reference_revisions
+    - text
+    - user
+id: node.site_information.default
+targetEntityType: node
+bundle: site_information
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_bitshopper_site_informatio:
+    type: entity_reference_revisions_entity_view
+    weight: 102
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

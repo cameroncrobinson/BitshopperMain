@@ -1,0 +1,21 @@
+uuid: 08ca58dd-fbd6-4ab5-a441-bedbdc6096af
+langcode: en
+status: true
+dependencies:
+  module:
+    - entity_reference_revisions
+    - node
+    - paragraphs
+id: node.field_bitshopper_site_informatio
+field_name: field_bitshopper_site_informatio
+entity_type: node
+type: entity_reference_revisions
+settings:
+  target_type: paragraph
+module: entity_reference_revisions
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

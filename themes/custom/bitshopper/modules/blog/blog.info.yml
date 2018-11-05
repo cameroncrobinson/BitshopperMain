@@ -1,0 +1,7 @@
+name: Blog
+description: 'Provides Blog content type and related configuration. '
+type: module
+core: 8.x
+dependencies:
+  - menu_ui
+  - node

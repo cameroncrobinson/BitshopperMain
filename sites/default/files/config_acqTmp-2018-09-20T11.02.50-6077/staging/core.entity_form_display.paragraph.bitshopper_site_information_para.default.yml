@@ -1,0 +1,30 @@
+uuid: d5d48c92-9d29-460f-8798-d977733787be
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.bitshopper_site_information_para.field_bitshopper_social_media
+    - paragraphs.paragraphs_type.bitshopper_site_information_para
+  module:
+    - paragraphs
+id: paragraph.bitshopper_site_information_para.default
+targetEntityType: paragraph
+bundle: bitshopper_site_information_para
+mode: default
+content:
+  field_bitshopper_social_media:
+    type: entity_reference_paragraphs
+    weight: 0
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+    third_party_settings: {  }
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

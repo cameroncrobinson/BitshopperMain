@@ -1,0 +1,9 @@
+uuid: 0a8c2b0b-8a5a-4731-a1a5-ab24040e99a5
+langcode: en
+status: true
+dependencies: {  }
+id: bitshopper_social_media
+label: 'Bitshopper Social Media'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

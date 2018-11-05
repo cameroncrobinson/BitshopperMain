@@ -1,0 +1,37 @@
+uuid: 88b520a6-5682-4e69-89c5-e92985d54f35
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.bitshopper_social_media.field_logos
+    - field.field.paragraph.bitshopper_social_media.field_social_media_link
+    - paragraphs.paragraphs_type.bitshopper_social_media
+  module:
+    - fontawesome
+    - link
+id: paragraph.bitshopper_social_media.default
+targetEntityType: paragraph
+bundle: bitshopper_social_media
+mode: default
+content:
+  field_logos:
+    weight: 0
+    label: above
+    settings:
+      layers: false
+    third_party_settings: {  }
+    type: fontawesome_icon_formatter
+    region: content
+  field_social_media_link:
+    weight: 1
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+hidden: {  }

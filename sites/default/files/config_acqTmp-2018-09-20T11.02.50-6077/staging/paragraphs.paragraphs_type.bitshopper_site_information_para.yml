@@ -1,0 +1,9 @@
+uuid: f01c967d-9baf-44d0-b4b1-52493f3fc4b2
+langcode: en
+status: true
+dependencies: {  }
+id: bitshopper_site_information_para
+label: 'Bitshopper Site Information Paragraph'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

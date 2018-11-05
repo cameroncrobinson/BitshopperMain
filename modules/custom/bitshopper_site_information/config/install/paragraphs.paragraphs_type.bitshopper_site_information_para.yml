@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies: {  }
+id: bitshopper_site_information_para
+label: 'Bitshopper Site Information Paragraph'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

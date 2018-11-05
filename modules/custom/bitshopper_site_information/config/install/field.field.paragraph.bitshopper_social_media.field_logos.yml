@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_logos
+    - paragraphs.paragraphs_type.bitshopper_social_media
+  module:
+    - fontawesome
+id: paragraph.bitshopper_social_media.field_logos
+field_name: field_logos
+entity_type: paragraph
+bundle: bitshopper_social_media
+label: Logos
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: fontawesome_icon

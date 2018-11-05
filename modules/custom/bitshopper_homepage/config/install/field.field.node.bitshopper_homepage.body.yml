@@ -1,0 +1,21 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.bitshopper_homepage
+  module:
+    - text
+id: node.bitshopper_homepage.body
+field_name: body
+entity_type: node
+bundle: bitshopper_homepage
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary
