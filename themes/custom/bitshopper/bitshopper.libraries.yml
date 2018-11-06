@@ -30,6 +30,7 @@ global-css:
 
       global-js:
         js:
+          js/bitshopper.js: {}
           js/bootstrap-hover-dropdown.js: {}
           js/bootstrap-select.min.js: {}
           js/bootstrap-slider: {}
