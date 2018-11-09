@@ -1,6 +1,7 @@
 # Ignore configuration files that may contain sensitive information.
 sites/*/*settings*.php
-sites/default/settings.php
+sites/*/*settings*.php
+sites/default
 
 # Ignore paths that contain generated content.
 files/
@@ -34,7 +35,7 @@ xmlrpc.php
 /modules
 /profiles
 /scripts
-/themes
+/sites
 
 ### OSX template
 *.DS_Store
