@@ -1,20 +1,20 @@
-# bishopper.mobile:
-#   label: mobile
-#   mediaQuery: ''
-#   weight: 0
-#   multipliers:
-#     - 1x
-#
-# bitshopper.narrow:
-#   label: narrow
-#   mediaQuery: 'all and (min-width: 560px) and (max-width: 860px)'
-#   weight: 1
-#   multipliers:
-#     - 1x
-#
-# bitshoper.wide:
-#   label: wide
-#   mediaQuery: 'all and (min-width: 861px)'
-#   weight: 2
-#   multipliers:
-#     - 1x
+bishopper.mobile:
+  label: mobile
+  mediaQuery: ''
+  weight: 0
+  multipliers:
+    - 1x
+
+bitshopper.narrow:
+  label: narrow
+  mediaQuery: 'all and (min-width: 560px) and (max-width: 860px)'
+  weight: 1
+  multipliers:
+    - 1x
+
+bitshoper.wide:
+  label: wide
+  mediaQuery: 'all and (min-width: 861px)'
+  weight: 2
+  multipliers:
+    - 1x
