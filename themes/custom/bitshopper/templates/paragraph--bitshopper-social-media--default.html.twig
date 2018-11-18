@@ -47,18 +47,19 @@
   ]
 %}
 {% block paragraph %}
-  <div{{ attributes.addClass(classes) }}>
+  <div{{ attributes.addClass(classes) }} style="display: flex;">
     {% block content %}
       {% if content.field_social_media_link %}
       {% if content.field_logos %}
-        <a href= "{{ content.field_social_media_link[0]['#url'] }}">
+        <a href= "{{ content.field_social_media_link[0]['#url'] }}" target="_blank">
         {{ content.field_logos }}
+        {{ content.field_social_media_link }}
         </a>
 
       {% endif %}
 
 
-        {{ content.field_social_media_link }}
+
       {% endif %}
     {% endblock %}
   </div>
