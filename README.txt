@@ -120,8 +120,7 @@ More about developing:
  * Learn from documented Drupal API examples:
    https://www.drupal.org/project/examples
 
-MORE INFORMATION
-----------------
+
 
  * See the Drupal.org online documentation:
    https://www.drupal.org/documentation
@@ -137,3 +136,7 @@ MORE INFORMATION
  * For information about the wide range of available support options, visit
    https://www.drupal.org and click on Community and Support in the top or
    bottom navigation.
+   
+EXTERNAL DOCS USED
+-------------------
+https://www.outlier.com/blog/drupal-8-jquery-background-image-slider
