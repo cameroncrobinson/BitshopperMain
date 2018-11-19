@@ -9,6 +9,7 @@ base theme: bootstrap
 regions:
   header: Header
   bitshoppermenu: Navigation
+  navigation_collapsible: 'Navigation (Collapsible)'
   content: Content
   sidbar_first: Sidebar First
   footer: Footer
@@ -17,5 +18,4 @@ regions:
 
 
 libraries:
-    - bitshopper/global-css
-    - bitshopper/global-js
+    - bitshopper/global-styling
