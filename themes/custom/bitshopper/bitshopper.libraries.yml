@@ -2,7 +2,6 @@ global-styling:
     version: Version
     css:
         theme:
-            css/main.css: {}
             css/animate.css: {}
             css/bootstrap-select.min.csss: {}
             css/font-awesome.min.css: {}
@@ -25,6 +24,7 @@ global-styling:
             css/styleNoJS.css: {}
             css/wizard.css: {}
             css/navigation.css: {}
+            css/main.css: {}
             '//fonts.googleapis.com/css?family=Pacifico': {type: external}
     js:
         js/bitshopper.js: {}
