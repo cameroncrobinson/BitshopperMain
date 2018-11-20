@@ -1,5 +1,6 @@
 (function($) {
-  // $("div.input-group").addClass(classname, "single wow fadeInRight animated");
+  // $("div.input-group").addClass(classname, "single wow fadeInRight animated");//
+  // logo responsiveness for mobile
   $(window)
     .on("resize", function() {
       var viewportWidth =

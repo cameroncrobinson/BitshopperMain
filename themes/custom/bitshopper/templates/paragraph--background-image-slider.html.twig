@@ -1,0 +1,97 @@
+{% set backgroundImageList %}
+
+    {% for item in content.field_background_image['#items'] %}
+            {{file_url(item.entity.uri.value)}},
+    {% endfor %}
+
+{% endset %}
+
+<section class="background-slider" data-background-image-list="{{backgroundImageList}}">
+
+    <div class="background-slider-overlay"></div>
+
+    <h2>{{content.field_background_image_slider_ti}}</h2>
+    {% for item in content.field_background_image_slider_bo['#items'] %}
+        <p class="background-slider-paragraph" data-loop-index="{{ loop.index }}">{{item.value}}</p>
+    {% endfor %}
+
+    <div class="slider-progress-bar-wrapper"><div class="slider-progress-bar"></div></div>
+
+</section>
+
+<script>
+    (function($) {
+
+        $(document).ready(function () {
+
+            //** Background Image Slider **//
+            //Set Variables
+            var backgroundImageSlider = $('.background-slider');
+            var backgroundSliderOverlay = $('.background-slider-overlay');
+
+            //Create image URL array and variables
+            var backgroundImageData = backgroundImageSlider.attr('data-background-image-list');
+            var backgroundImageList = backgroundImageData.split(',');
+            var backgroundImageCount = backgroundImageList.length -1;
+            var backgroundImageLast = backgroundImageCount -1;
+
+            //Create the pargraph array variables
+            var backgroundParagraphSlider = $('p.background-slider-paragraph');
+            var paragraphDataList = backgroundParagraphSlider.attr('data-loop-index');
+            var paragraphDataLength = backgroundParagraphSlider.length;
+            var backgroundParagraphDataIndex = paragraphDataLength;
+
+            //Create Background Colors Array
+//you can edit these colors
+            var backgroundColors = ['ca1404', '2d7eee', '333333'];
+            var backgroundColorsIndex = 0;
+
+            //Set progress bar width
+            var progressBar = $('.slider-progress-bar');
+            var progessBarWidthSection = 100 / backgroundImageCount;
+            progressBar.css('width', progessBarWidthSection + '%');
+
+
+            //Loop through the image URL's array and Background color array
+            var delayTime = 0;
+
+            (function theLoop (i) {
+                setTimeout(function () {
+                    backgroundImageSlider.attr('style', 'background-image: url(' + backgroundImageList[i - 1] + ')');
+                    backgroundSliderOverlay.css('background', '#' + backgroundColors[backgroundColorsIndex]);
+                    progressBar.css('left', 100 - (progessBarWidthSection * i) + '%');
+                    progressBar.css('background', '#' + backgroundColors[backgroundColorsIndex]);
+                    backgroundParagraphSlider.each(function () {
+                        $(this).addClass('moveSliderParagraph');
+                        if ($(this).attr('data-loop-index') == backgroundParagraphDataIndex) {
+                            $(this).removeClass('moveSliderParagraph');
+                        }
+                    });
+
+                    delayTime = 6000;
+
+                    if (backgroundColorsIndex == backgroundColors.length - 1) {
+                        backgroundColorsIndex = 0;
+                    } else {
+                        backgroundColorsIndex++;
+                    }
+                    if (backgroundParagraphDataIndex == 1) {
+                        backgroundParagraphDataIndex = paragraphDataLength;
+                    } else {
+                        backgroundParagraphDataIndex--;
+                    }
+
+                    if (--i) {
+                        theLoop(i);
+                    }
+                    if (i == 0) {
+                        i = backgroundImageCount;
+                        theLoop(i);
+                    }
+                }, delayTime);
+            })(backgroundImageCount);
+
+        });
+
+    }(jQuery));
+</script>
