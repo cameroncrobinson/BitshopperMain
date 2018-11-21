@@ -7,6 +7,9 @@
   margin: auto;
   width: 50%;
 }
+.field--name-field-media-image .field--item a img {
+  margin: auto;
+}
 
 .bitshopper-nav-align {
   margin: auto;
@@ -118,6 +121,12 @@
 }
 .paragraph--type--bitshopper-social-media .field--name-field-logos {
   margin: 0px 10px 10px 10px;
+}
+
+.input-group {
+  width: 420px;
+  max-width: 100%;
+  margin: auto;
 }
 
 /*# sourceMappingURL=main.css.map */

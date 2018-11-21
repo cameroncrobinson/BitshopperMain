@@ -1,4 +1,11 @@
 .field--name-field-media-image {
   margin: auto;
   width: 50%;
+  .field--item{
+    a{
+      img{
+      margin:auto;
+    }
+  }
+  }
 }
