@@ -1,3 +1,30 @@
+@media only screen and (min-width: 600px) {
+  #block-views-block-social-media-block-1-2 .form-group .view .view-content .views-row .paragraph--type--bitshopper-social-media a {
+    padding-top: 30px;
+  }
+}
+.region-navigation-collapsible {
+  display: flex;
+}
+
+@media only screen and (max-width: 760px) {
+  .region-navigation-collapsible {
+    flex-direction: column;
+  }
+
+  #block-views-block-social-media-block-1-2 .form-group {
+    padding-left: 10px;
+  }
+  #block-views-block-social-media-block-1-2 .form-group .view .view-content .views-row .paragraph--type--bitshopper-social-media a {
+    padding-left: 10px;
+    padding-top: 15px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  #block-views-block-social-media-block-1-2 .form-group {
+    padding-left: 500px;
+  }
+}
 .paragraph--type--bitshopper-hero img {
   width: 100%;
   padding-bottom: 15px;
@@ -123,6 +150,32 @@
   margin: 0px 10px 10px 10px;
 }
 
+.field--name-field-bitshopper-site-informatio .field--item .field--name-field-bitshopper-social-media .field--items {
+  display: flex;
+}
+
+.views-row .paragraph--type--bitshopper-social-media .field--name-field-social-media-link {
+  display: none;
+}
+
+.view-social-media .view-content {
+  display: flex;
+}
+
+@media only screen and (max-width: 600px) {
+  .view-social-media .view-content {
+    flex-direction: column;
+  }
+}
+.region-footer {
+  display: flex;
+}
+
+@media only screen and (max-width: 600px) {
+  .region-footer {
+    flex-direction: column;
+  }
+}
 .input-group {
   width: 420px;
   max-width: 100%;

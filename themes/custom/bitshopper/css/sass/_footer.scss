@@ -1,10 +1,55 @@
+//link color for items
 .footer a {
   color: black;
 }
 
+// displaying items in same row
 .paragraph--type--bitshopper-social-media {
   display: flex;
   .field--name-field-logos{
     margin: 0px 10px 10px 10px;
   }
+}
+
+//displays items within the same row
+.field--name-field-bitshopper-site-informatio{
+.field--item{
+.field--name-field-bitshopper-social-media{
+  .field--items{
+    display: flex;
+  }
+}
+}
+}
+
+//removes link text
+.views-row{
+  .paragraph--type--bitshopper-social-media {
+    .field--name-field-social-media-link {
+      display: none;
+    }
+    }
+}
+
+//displays items within the same row
+.view-social-media {
+  .view-content {
+    display: flex;
+  }
+}
+@media only screen and (max-width: 600px) {
+.view-social-media{
+  .view-content{
+    flex-direction: column;
+   }
+ }
+}
+.region-footer {
+  display: flex;
+}
+
+@media only screen and (max-width: 600px) {
+  .region-footer {
+  flex-direction: column;
+ }
 }
