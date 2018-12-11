@@ -4,26 +4,30 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.site_information.body
+    - field.field.node.site_information.field_bitshopper_site_informatio
+    - field.field.node.site_information.field_contact_information
+    - field.field.node.site_information.field_quick_link
     - node.type.site_information
   module:
-    - text
+    - field_layout
+    - layout_discovery
     - user
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings: {  }
 id: node.site_information.teaser
 targetEntityType: node
 bundle: site_information
 mode: teaser
 content:
-  body:
-    label: hidden
-    type: text_summary_or_trimmed
-    weight: 101
-    settings:
-      trim_length: 600
-    third_party_settings: {  }
-    region: content
   links:
     weight: 100
     settings: {  }
     third_party_settings: {  }
     region: content
-hidden: {  }
+hidden:
+  body: true
+  field_bitshopper_site_informatio: true
+  field_contact_information: true
+  field_quick_link: true

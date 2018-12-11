@@ -6,6 +6,12 @@ dependencies:
     - paragraphs.paragraphs_type.bitshopper_site_information_para
   module:
     - entity_reference_revisions
+    - field_layout
+    - layout_discovery
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings: {  }
 id: paragraph.bitshopper_site_information_para.default
 targetEntityType: paragraph
 bundle: bitshopper_site_information_para

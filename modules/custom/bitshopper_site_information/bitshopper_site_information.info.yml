@@ -3,10 +3,14 @@ description: 'Site Information For Bitshopper Site'
 type: module
 core: 8.x
 dependencies:
+  - block
+  - content_moderation
   - entity_reference_revisions
   - field
   - field_group
+  - field_layout
   - fontawesome
+  - layout_discovery
   - link
   - menu_ui
   - node
@@ -14,3 +18,4 @@ dependencies:
   - path
   - text
   - user
+  - views

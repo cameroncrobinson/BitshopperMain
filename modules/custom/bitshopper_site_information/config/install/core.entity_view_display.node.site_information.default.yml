@@ -4,23 +4,25 @@ dependencies:
   config:
     - field.field.node.site_information.body
     - field.field.node.site_information.field_bitshopper_site_informatio
+    - field.field.node.site_information.field_contact_information
+    - field.field.node.site_information.field_quick_link
     - node.type.site_information
   module:
     - entity_reference_revisions
+    - field_layout
+    - layout_discovery
+    - link
     - text
     - user
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings: {  }
 id: node.site_information.default
 targetEntityType: node
 bundle: site_information
 mode: default
 content:
-  body:
-    label: hidden
-    type: text_default
-    weight: 101
-    settings: {  }
-    third_party_settings: {  }
-    region: content
   field_bitshopper_site_informatio:
     type: entity_reference_revisions_entity_view
     weight: 102
@@ -30,9 +32,29 @@ content:
       link: ''
     third_party_settings: {  }
     region: content
+  field_contact_information:
+    weight: 103
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_quick_link:
+    weight: 104
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
   links:
     weight: 100
     settings: {  }
     third_party_settings: {  }
     region: content
-hidden: {  }
+hidden:
+  body: true

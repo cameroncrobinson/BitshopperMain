@@ -51,7 +51,7 @@
  * @see html.html.twig
  */
 #}
-{% set container = theme.settings.fluid_container ? 'container-fluid' : 'container' %}
+ {% set container = theme.settings.fluid_container ? 'container-fluid' : 'container' %}
 {# Navbar #}
 {% if page.navigation or page.navigation_collapsible %}
   {% block navbar %}
@@ -59,7 +59,7 @@
       set navbar_classes = [
         'navbar',
         theme.settings.navbar_inverse ? 'navbar-inverse' : 'navbar-default',
-        theme.settings.navbar_position ? 'navbar-' ~ theme.settings.navbar_position|clean_class : container,
+
       ]
     %}
     <header{{ navbar_attributes.addClass(navbar_classes) }} onresize="logoResize()" id="navbar" role="banner">
@@ -91,6 +91,13 @@
     </header>
   {% endblock %}
 {% endif %}
+
+{# Background Image #}
+{% block background_image %}
+  {% if page.background_image %}
+    {{ page.background_image }}
+  {% endif %}
+{% endblock %}
 
 {# Main #}
 {% block main %}
@@ -161,7 +168,8 @@
 
 {% if page.footer %}
   {% block footer %}
-    <footer class="footer {{ container }}" role="contentinfo">
+    <footer class="footer" role="contentinfo">
+
       {{ page.footer }}
     </footer>
   {% endblock %}

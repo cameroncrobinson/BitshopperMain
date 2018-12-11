@@ -169,6 +169,8 @@
 }
 .region-footer {
   display: flex;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 
 @media only screen and (max-width: 600px) {

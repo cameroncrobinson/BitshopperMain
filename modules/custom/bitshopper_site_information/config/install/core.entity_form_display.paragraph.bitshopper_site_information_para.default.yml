@@ -5,7 +5,13 @@ dependencies:
     - field.field.paragraph.bitshopper_site_information_para.field_bitshopper_social_media
     - paragraphs.paragraphs_type.bitshopper_site_information_para
   module:
+    - field_layout
+    - layout_discovery
     - paragraphs
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings: {  }
 id: paragraph.bitshopper_site_information_para.default
 targetEntityType: paragraph
 bundle: bitshopper_site_information_para
