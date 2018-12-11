@@ -6,8 +6,14 @@ dependencies:
     - field.field.paragraph.bitshopper_social_media.field_social_media_link
     - paragraphs.paragraphs_type.bitshopper_social_media
   module:
+    - field_layout
     - fontawesome
+    - layout_discovery
     - link
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings: {  }
 id: paragraph.bitshopper_social_media.default
 targetEntityType: paragraph
 bundle: bitshopper_social_media
