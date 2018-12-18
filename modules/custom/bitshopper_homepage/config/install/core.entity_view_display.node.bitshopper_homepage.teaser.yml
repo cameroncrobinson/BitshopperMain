@@ -4,10 +4,17 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.bitshopper_homepage.body
+    - field.field.node.bitshopper_homepage.field_home_logo
     - node.type.bitshopper_homepage
   module:
+    - field_layout
+    - layout_discovery
     - text
     - user
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings: {  }
 id: node.bitshopper_homepage.teaser
 targetEntityType: node
 bundle: bitshopper_homepage
@@ -26,4 +33,5 @@ content:
     settings: {  }
     third_party_settings: {  }
     region: content
-hidden: {  }
+hidden:
+  field_home_logo: true

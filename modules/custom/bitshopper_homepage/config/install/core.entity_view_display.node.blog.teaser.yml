@@ -4,10 +4,18 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.blog.body
+    - field.field.node.blog.comment
+    - field.field.node.blog.field_bitshopper_hero
     - node.type.blog
   module:
+    - field_layout
+    - layout_discovery
     - text
     - user
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings: {  }
 id: node.blog.teaser
 targetEntityType: node
 bundle: blog
@@ -26,4 +34,6 @@ content:
     settings: {  }
     third_party_settings: {  }
     region: content
-hidden: {  }
+hidden:
+  comment: true
+  field_bitshopper_hero: true

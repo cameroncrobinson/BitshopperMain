@@ -3,12 +3,20 @@ status: true
 dependencies:
   config:
     - field.field.node.bitshopper_homepage.body
-    - field.field.node.bitshopper_homepage.field_logo
+    - field.field.node.bitshopper_homepage.field_home_logo
+    - image.style.thumbnail
     - node.type.bitshopper_homepage
   module:
-    - media_library
+    - content_moderation
+    - field_layout
+    - image
+    - layout_discovery
     - path
     - text
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings: {  }
 id: node.bitshopper_homepage.default
 targetEntityType: node
 bundle: bitshopper_homepage
@@ -29,12 +37,20 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
-  field_logo:
-    type: media_library_widget
-    weight: 122
-    settings: {  }
+  field_home_logo:
+    weight: 123
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
     third_party_settings: {  }
+    type: image_image
     region: content
+  moderation_state:
+    type: moderation_state_default
+    weight: 100
+    settings: {  }
+    region: content
+    third_party_settings: {  }
   path:
     type: path
     weight: 30

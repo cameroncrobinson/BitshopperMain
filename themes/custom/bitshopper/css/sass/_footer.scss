@@ -55,3 +55,17 @@
   flex-direction: column;
  }
 }
+
+//removes unecessary padding
+@media only screen and (min-width: 600px) {
+  .footer {
+  padding-bottom: 1px;
+ }
+}
+
+//putting space between footer and content
+@media only screen and (min-width: 600px) {
+  .main-container {
+  margin-bottom: 200px;
+ }
+}

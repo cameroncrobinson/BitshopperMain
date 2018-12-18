@@ -3,9 +3,15 @@ description: 'Homepage for Bitshopper theme'
 type: module
 core: 8.x
 dependencies:
+  - blog
   - comment
+  - content_moderation
   - entity_reference_revisions
   - field
+  - field_layout
+  - file
+  - image
+  - layout_discovery
   - media
   - media_library
   - menu_ui

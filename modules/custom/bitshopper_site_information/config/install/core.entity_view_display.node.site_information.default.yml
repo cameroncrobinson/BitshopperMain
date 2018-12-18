@@ -26,7 +26,7 @@ content:
   field_bitshopper_site_informatio:
     type: entity_reference_revisions_entity_view
     weight: 102
-    label: above
+    label: visually_hidden
     settings:
       view_mode: default
       link: ''
@@ -34,14 +34,14 @@ content:
     region: content
   field_contact_information:
     weight: 103
-    label: above
+    label: visually_hidden
     settings: {  }
     third_party_settings: {  }
     type: text_default
     region: content
   field_quick_link:
     weight: 104
-    label: above
+    label: visually_hidden
     settings:
       trim_length: 80
       url_only: false
@@ -53,8 +53,8 @@ content:
     region: content
   links:
     weight: 100
+    region: content
     settings: {  }
     third_party_settings: {  }
-    region: content
 hidden:
   body: true

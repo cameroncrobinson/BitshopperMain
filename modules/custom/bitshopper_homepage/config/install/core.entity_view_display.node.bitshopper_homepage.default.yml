@@ -3,11 +3,18 @@ status: true
 dependencies:
   config:
     - field.field.node.bitshopper_homepage.body
-    - field.field.node.bitshopper_homepage.field_logo
+    - field.field.node.bitshopper_homepage.field_home_logo
     - node.type.bitshopper_homepage
   module:
+    - field_layout
+    - image
+    - layout_discovery
     - text
     - user
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings: {  }
 id: node.bitshopper_homepage.default
 targetEntityType: node
 bundle: bitshopper_homepage
@@ -20,14 +27,14 @@ content:
     settings: {  }
     third_party_settings: {  }
     region: content
-  field_logo:
-    type: entity_reference_entity_view
-    weight: 102
+  field_home_logo:
+    weight: 103
     label: above
     settings:
-      view_mode: default
-      link: false
+      image_style: ''
+      image_link: ''
     third_party_settings: {  }
+    type: image
     region: content
   links:
     weight: 100

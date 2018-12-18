@@ -8,9 +8,16 @@ dependencies:
     - node.type.blog
   module:
     - comment
+    - content_moderation
+    - field_layout
+    - layout_discovery
     - paragraphs
     - path
     - text
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings: {  }
 id: node.blog.default
 targetEntityType: node
 bundle: blog
@@ -49,6 +56,12 @@ content:
       default_paragraph_type: ''
     third_party_settings: {  }
     region: content
+  moderation_state:
+    type: moderation_state_default
+    weight: 100
+    settings: {  }
+    region: content
+    third_party_settings: {  }
   path:
     type: path
     weight: 30
