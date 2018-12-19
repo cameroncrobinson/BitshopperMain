@@ -22,5 +22,6 @@
   // $(window).on("resize", OnResizePull);
   $(".block-views-blockabout-us-block-1").addClass("col-md-3");
   $("#block-views-block-about-us-block-2").addClass("col-md-3");
-  $("#block-views-block-social-media-block-1").addClass('col-md-3');
+  $("#block-views-block-social-media-block-1").addClass("col-md-3");
+  $(".block-views-blocklatest-news-block-1").addClass("col-md-3");
 })(jQuery);
